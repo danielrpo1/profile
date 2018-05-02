@@ -1,0 +1,88 @@
+.nosirev {
+  color: red;
+}
+/* Estilo Container */
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+  background-color: #ededed;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #cccccc;
+}
+#img-profile:hover {
+    border: 3px solid #481656;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.text-center {
+    text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-gray {
+    background-color: #ffffff;
+    font-family: 'Gothic A1', sans-serif;
+    color: #481656;
+    font-weight: 500;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px;
+    border: 2px solid #ededed;
+  }
+
+.btn-gray:hover {
+    border: 2px solid #481656;
+
+}
+
+h1 {
+    font-family: 'Gothic A1', sans-serif;
+    color: #481656;
+    font-size: 27px;
+}
+
+h2, h3 {
+    font-family: 'Gothic A1', sans-serif;
+    color: #878787;
+    font-size: 17px;
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+    color: #878787;
+    font-size: 13px;
+}
+
+a {
+    color: #baabc9;
+    text-decoration: none;
+}
+a:hover {
+    color: #481656;
+    text-decoration: none;
+}
